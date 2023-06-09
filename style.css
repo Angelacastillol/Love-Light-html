@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;500&family=Syne&display=swap');
+
+body {
+    margin: 30px;
+    font-family: Syne;
+    text-align: center;
+    background: rgb(21, 45, 78);
+    background: radial-gradient(circle, rgba(21, 45, 78, 1) 42%, rgba(0, 0, 0, 1) 100%);
+}
+
+.menu {
+    font-family: Geologica;
+    font-size: 20px;
+    background-color: rgb(212, 212, 212);
+    margin: auto;
+    padding: 0;
+    width: 70%;
+}
+
+.menu li {
+    display:inline-block;
+    text-align: center;
+    
+    
+}
+
+.menu li a:hover{
+    color:tomato;
+   /* background: linear-gradient(22deg,wheat,rgb(85, 128, 237),rgb(123, 37, 37),rgb(0, 255, 34));*/
+
+}
+
+.menu li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 6px;
+    display:block;
+}
+
+li span {
+    color: rgb(180, 87, 87);
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: Geologica;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-family: Geologica;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-family: Geologica;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: line;
+    
+}
+
+img {
+    margin-top: 50px;
+    width: 350;
+    border: 5px solid white;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+iframe {
+    margin-top: 50px;
+    border: 5px solid white;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    
+}
+
+#video{
+    display:block;
+    justify-content: center;
+}
+
+.blink {
+    animation: blinker 3s linear infinite;
+}
+
+.apertura{
+    color:yellow;
+}
+
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+        
